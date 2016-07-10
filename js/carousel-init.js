@@ -8,6 +8,7 @@ jQuery(document).ready(function(t) {
     t(".carousel-anything-container").each(function() {
         t(this).owlCarousel({
             autoplay : "false" === t(this).attr("data-autoplay") ? !1 : !0,
+            autoplaySpeed: "false" === t(this).attr("data-autoplay") ? !1 : t(this).attr("data-autoplay"),
             loop     : true,
             rewind   : false,
             items    : t(this).attr("data-items"),
