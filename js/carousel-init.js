@@ -1,3 +1,4 @@
+/* Andy Place - www.andyplace.co.uk */
 jQuery(document).ready(function(t) {
     "use strict";
 
