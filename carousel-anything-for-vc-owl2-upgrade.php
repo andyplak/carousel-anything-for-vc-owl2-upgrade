@@ -25,6 +25,7 @@ function cavc_upgrade_assets($ret) {
 
   // Add Owl 2 equivelents
   wp_enqueue_style( 'owl-carousel2-css', plugins_url( 'css/owl.carousel.min.css', __FILE__ ), array(), '2.1.0' );
+  wp_enqueue_style( 'owl-carousel2-theme-css', plugins_url( 'css/owl.theme.default.css', __FILE__ ), array(), '2.1.0' );
   wp_enqueue_script( 'carousel-anything-owl2', plugins_url( 'js/owl.carousel2-min.js', __FILE__ ), array( 'jquery' ), '2.1.0', true );
   wp_enqueue_script( 'carousel-anything-init', plugins_url( 'js/carousel-init.js', __FILE__ ), array( 'jquery', 'carousel-anything-owl2' ), VERSION_GAMBIT_CAROUSEL_ANYTHING, true );
 
